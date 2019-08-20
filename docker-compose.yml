@@ -1,0 +1,7 @@
+version: '2'
+services:
+    grafana:
+        container_name: aiwin-grafana
+        image: aiwin/grafana-plugins:latest
+        ports:
+            - 3000:3000
